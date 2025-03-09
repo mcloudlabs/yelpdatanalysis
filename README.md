@@ -3,24 +3,35 @@ Perform a Data Analysis on Yelp Data set using Azure Data Factory and Azure Data
 
 #Business Overview
 In today’s data-driven landscape, leveraging community-driven datasets is essential for organizations to enhance consumer experience and derive business insights. One such dataset is the Yelp dataset, which offers extensive information on local businesses, customer reviews, and user interactions. This dataset serves as a valuable resource for research and analytical projects.
+
 Yelp provides services such as Yelp Reservations, enabling users to discover, review, and book services across diverse sectors, including restaurants, retail, healthcare, and entertainment. To foster innovation, Yelp launched the Yelp Dataset Challenge, offering a curated dataset for researchers, analysts, and developers.
+
 This project establishes a robust data pipeline that integrates raw Yelp JSON files into Azure Data Lake Storage Gen2 as a centralized repository. Azure Data Factory’s Copy Data pipeline orchestrates data movement between storage containers, ensuring structured organization for downstream processing. Azure Databricks is leveraged for transformation and analysis, extracting insights from business, review, and user data. This scalable and efficient Azure-based solution enables seamless processing of Yelp’s vast historical data.
 
 #Project Aim
 The primary goal of this project is to process and analyze Yelp’s raw JSON dataset to extract actionable insights related to businesses, customer reviews, and user behavior using Azure services. The dataset is transformed and standardized through a scalable Azure data pipeline to ensure efficient data processing.
+
 ##Key Objectives:
+
 	• Ingest raw Yelp data into Azure Data Lake Storage Gen2.
 	• Utilize Azure Data Factory’s Copy Data pipeline for seamless data movement.
 	• Perform extensive data transformation and analysis using Azure Databricks.
 	• Extract insights such as top-performing business categories, customer sentiment trends, and regional business patterns.
 
 ##Tech Stack
+
 	• Programming: SQL, Python
+ 
 	• Library: PySpark
+ 
 	• Cloud Services:
+ 
 		○ Azure Data Lake Storage Gen2 (ADLS Gen2)
+  
 		○ Azure Data Factory (ADF)
+  
 		○ Azure Databricks
+  
 
 #Azure Services Overview
 ##Azure Data Lake Storage (ADLS Gen2)
